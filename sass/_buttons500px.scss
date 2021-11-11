@@ -1,0 +1,37 @@
+.btn1 {
+  border: none;
+  color: $basicWhite;
+  background-color: $basicBlue;
+  height: 40px;
+  border-radius: 30px;
+  padding: 12px;
+  width: 150px;
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 40px;
+}
+
+.btn1:hover {
+  background-color: $basicWhite;
+  color: $basicBlue;
+  border-color: $basicBlue;
+  border: 0.5px $basicBlue solid;
+}
+
+.intro > span > button {
+  margin-top: 20px;
+}
+
+.btn2 {
+  margin-top: 35px;
+  border: none;
+  color: $basicWhite;
+  background-color: $basicBlue;
+  height: 35px;
+  border-radius: 12px;
+  // padding: 12px;
+  width: 400px;
+  font-weight: 600;
+  font-size: 14px;
+  // margin-left: 12px;
+}

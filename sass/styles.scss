@@ -1,0 +1,29 @@
+@import "variables";
+@import "fonts";
+
+body {
+  background-color: $basicWhite;
+  width: 500px;
+  height: 2500px;
+  margin-left: 0px;
+  font-family: $fontPrimary;
+  color: $basicBlack;
+
+  nav {
+    div {
+      background-color: $basicBlack;
+      padding-top: 10px;
+    }
+  }
+}
+@import "header500px";
+@import "banner500px";
+@import "contact-content500px";
+@import "contact-texts500px";
+@import "buttons500px";
+@import "index-content500px";
+@import "index-texts500px";
+@import "side-bar";
+@import "login500px";
+@import "sign500px";
+@import "footer";

@@ -1,0 +1,22 @@
+#signUp-body {
+  height: 250px;
+}
+#form-signUp-background {
+  height: 230px;
+  background-color: $basicBlack;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#form-signUp-background > * {
+  margin-left: 2px;
+  padding-left: 0px;
+  margin-top: 12px;
+}
+
+#signUp-body p {
+  margin-top: 62%;
+  text-align: center;
+}

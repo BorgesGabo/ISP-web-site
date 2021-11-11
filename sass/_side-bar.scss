@@ -1,0 +1,44 @@
+.hide {
+  display: none;
+}
+
+#sidebar-right {
+  color: $basicWhite;
+  background-color: $basicBlack;
+  padding-left: 50px;
+  width: 240px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
+}
+
+#sidebar-right > ul {
+  list-style-type: none;
+}
+
+#sidebar-right > ul {
+  list-style-type: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#sidebar-right > ul > li {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  color: $grey;
+}
+
+#sidebar-right > ul > li:hover {
+  color: $basicWhite;
+  cursor: pointer;
+}
+
+#sidebar-right > ul :nth-child(1) {
+  margin-left: 120px;
+  font-size: 25px;
+  color: $basicWhite;
+  cursor: pointer;
+}

@@ -1,0 +1,81 @@
+#seccion1 > h2 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.email-cards h4,
+h5,
+a {
+  color: $basicWhite;
+}
+
+.email-cards > h4 {
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.email-cards h5 {
+  margin-bottom: 0px;
+}
+.email-cards > a {
+  padding-top: 0px;
+}
+
+#callUs :nth-child(-n + 3) {
+  text-align: center;
+}
+
+#callUs > h4 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  color: $basicBlack;
+}
+
+#callUs > p {
+  font-size: 18px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+
+#contactDetails > div :nth-child(n + 3) {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+#contactDetails > div :nth-child(1) {
+  padding-top: 20px;
+  font-size: 20px;
+  text-align: left;
+}
+
+#contactDetails > div :nth-child(4) {
+  background-color: white;
+}
+
+#contactDetails > div :nth-child(5) {
+  background-color: white;
+  margin-bottom: 1px;
+}
+
+#contactDetails > div :nth-child(7) {
+  color: $purple;
+  margin-top: 1px;
+  font-size: 18px;
+}
+
+#contactDetails > div h5 {
+  color: $purple;
+}
+
+#seccion2 > h2 {
+  margin-left: 45px;
+  margin-right: 40px;
+  font-weight: 800;
+  font-size: 22px;
+  color: $basicBlack;
+  padding-bottom: 14px;
+}

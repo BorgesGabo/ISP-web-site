@@ -1,0 +1,92 @@
+.email-cards {
+  background-color: $basicBlue;
+  color: $basicWhite;
+  margin-right: 12px;
+  margin-left: 12px;
+  margin-top: 30px;
+  padding-bottom: 24px;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+
+// #seccion1 > h2 {
+//   margin-top: 25px;
+//   margin-bottom: 25px;
+//   font-weight: 600;
+//   text-align: center;
+// }
+
+#seccion1 :nth-child(4) {
+  margin-top: 15px;
+  background-color: $purple;
+}
+
+#seccion1 :nth-child(5) {
+  margin-top: 15px;
+  background-color: $basicBlack;
+}
+
+// .email-cards > h4 {
+//   color: $basicWhite;
+//   padding-bottom: 10px;
+//   font-size: 20px;
+//   font-weight: 600;
+// }
+
+// .email-cards h5 {
+//   color: $basicWhite;
+//   margin-bottom: 0px;
+// }
+// .email-cards > a {
+//   padding-top: 0px;
+//   color: $basicWhite;
+// }
+
+#contactDetails > img {
+  margin-top: 20px;
+  width: 450px;
+  margin-left: 25px;
+  height: 250px;
+  padding-bottom: 10px;
+}
+
+#contactDetails > div {
+  background-color: white;
+  margin-left: 25px;
+  width: 430px;
+  margin-top: -41px;
+  padding-left: 20px;
+  height: 250px;
+}
+
+#tapiz {
+  background-color: #6292e5;
+  height: 550px;
+  margin-top: 20px;
+}
+
+#seccion2 {
+  padding-top: 50px;
+  margin-top: 100px;
+  background-color: white;
+  margin-right: 20px;
+  height: 900px;
+}
+
+form {
+  margin-left: 45px;
+}
+
+input {
+  margin-top: 35px;
+  width: 385px;
+  height: 45px;
+  margin-bottom: 2px;
+}
+
+textarea {
+  margin-top: 45px;
+  width: 385px;
+  height: 155px;
+  margin-bottom: 20px;
+}
