@@ -31,14 +31,32 @@
   color: $grey;
 }
 
-#sidebar-right > ul > li:hover {
-  color: $basicWhite;
-  cursor: pointer;
-}
+// #sidebar-right > ul > li:hover {
+//   color: $basicWhite;
+//   cursor: pointer;
+// }
 
-#sidebar-right > ul :nth-child(1) {
+// #sidebar-right > ul :nth-child(1) {
+//   margin-left: 120px;
+//   font-size: 25px;
+//   color: $basicWhite;
+//   cursor: pointer;
+// }
+
+#close {
   margin-left: 120px;
   font-size: 25px;
-  color: $basicWhite;
   cursor: pointer;
+  color: $basicWhite;
+}
+
+#links-menu {
+  color: $grey;
+  font-size: 17px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#links-menu:hover {
+  color: $basicWhite;
 }

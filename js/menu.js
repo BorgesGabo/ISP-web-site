@@ -8,12 +8,12 @@ window.onload = () => {
   //   image = document.getElementById("imagen1");
 
   hamButton.addEventListener("click", () => {
-    //   toggle means change from "no class" to "ocultar"
-    sideRight.classList.toggle("ocultar");
+    //   toggle means change from "no class" to "hide"
+    sideRight.classList.toggle("hide");
   });
 
   x.addEventListener("click", () => {
-    sideRight.classList.toggle("ocultar");
+    sideRight.classList.toggle("hide");
   });
 };
 
