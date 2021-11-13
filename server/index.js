@@ -33,19 +33,7 @@ app.get("/", (req, res) => {
   res.send("This is express running");
 });
 
-// CREATE
-app.get("/create", (req, res) => {
-  let sql = "INSERT INTO `nodejs_53414`.`usuarios` (`nombre`, `contrasegna`, `activo`, `fecha_hora_crea`) VALUES ('N  N', '890', '1', '2021-11-13 15:40');";
-  connection.query(sql, function (error, results, fields) {
-    if (error) {
-      throw error;
-    }
-    console.log(results, fields);
-    res.send("consulta exitosa");
-  });
-});
-
-// READ
+// Get all users
 app.get("/usuarios", (req, res) => {
   let sql = "SELECT * FROM  usuarios";
   connection.query(sql, function (error, results, fields) {
@@ -59,4 +47,20 @@ app.get("/usuarios", (req, res) => {
     res.send("consulta exitosa");
   });
 });
+
+// Get an user
+app.get("/usuarios", (req, res) => {
+  let sql = "SELECT * FROM  usuarios";
+  connection.query(sql, function (error, results, fields) {
+    if (error) {
+      throw error;
+    }
+
+    results.forEach((element) => {
+      console.log(`id: ${element.id} nombre: ${element.nombre}`);
+    });
+    res.send("consulta exitosa");
+  });
+});
+
 app.listen(port, () => console.log("listening port 3000..."));
