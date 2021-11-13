@@ -1,0 +1,8 @@
+1. implementar tarea gulp para procesar js
+2. implementar validacion contrasena con login_captcha
+3. implementar la creacion de usuario
+4. crear la db en mysql
+5. crear servidor express para el back
+6. probar toda la implementacion
+7. habilitar la pagina en github como publica para que se pueda ver en la nube
+8. Hacer el despliegue en AWS
