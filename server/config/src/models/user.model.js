@@ -89,4 +89,18 @@ User.create = function (newUser, result) {
   });
 };
 
+//Query update an user by ID
+User.update = function (id, user, result) {
+  let sql = "UPDATE users SET first_name=?,last_name=?,email=?,password=?,status=?,is_Deleted=?,created_at=?, updated_at=? WHERE id = ?";
+  let newData = [user.first_name, user.last_name, user.email, user.password, user.status, user.is_Deleted, user.created_at, user.updated_at, id];
+  dbConn.query(sql, newData, function (err, res) {
+    if (err) {
+      console.log("error in query: ", err);
+      result(null, res);
+    } else {
+      result(null, res);
+    }
+  });
+};
+
 module.exports = User;

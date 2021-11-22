@@ -53,3 +53,18 @@ exports.create = function (req, res) {
     });
   }
 };
+
+exports.update = function (req, res) {
+  // handle case if body has no data
+
+  if (req.body.constructor === Object && Object.keys(req.body) === 0) {
+    res.status(404).send({ error: true, message: "Please provide all the required fields" });
+  } else {
+    User.update(req.params.id, new User(req.body), function (err, user) {
+      if (err) {
+        res.send(err);
+      }
+      res.json({ message: "User successfully updated", data: user });
+    });
+  }
+};
