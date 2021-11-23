@@ -383,6 +383,8 @@ fieldset {
 
 #login_usuario,
 #login_contrasena,
+#login_apellido,
+#login_email,
 #login_captcha {
   margin-top: 5px;
   height: 35px;
@@ -417,7 +419,7 @@ fieldset {
 }
 
 #form-signUp-background {
-  height: 230px;
+  height: 330px;
   background-color: #344a53;
   position: absolute;
   left: 50%;
@@ -432,7 +434,7 @@ fieldset {
 }
 
 #signUp-body p {
-  margin-top: 62%;
+  margin-top: 52%;
   text-align: center;
 }
 

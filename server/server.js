@@ -5,6 +5,9 @@ const bodyParser = require("body-parser");
 //create express app
 const app = express();
 
+// //create cors
+// const cors = require("cors");
+
 //setup server port
 const port = process.env.PORT || 5000;
 
